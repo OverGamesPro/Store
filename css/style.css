@@ -1,15 +1,86 @@
-body {
-    margin:0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+    
+
+*::before,
+*::after {
+    box-sizing: inherit;
+    
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+button{
+    background-color: rgb(167, 109, 220);
+    border-radius: 12px;
+    border-color: blueviolet;
+    border-style:double;
+    height: 2.4rem;
+    cursor: pointer;
+    margin: 0.4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+button:hover{
+    background-color:rgb(126, 84, 165) ;
+}
+
+button:active{
+    background-color:rgb(71, 51, 97);
+}
+
+
 .user-reg-log {
-    background-color: rgb(188, 126, 126);
+    background-color: rgb(71, 51, 97);
     width: 100%;
-    height: 100px;
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0rem 2rem 0rem 10rem;
+    user-select: none;
+}
+
+.right_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .navigation{
-    background-color: blue;
+    background-color: rgb(196, 2, 167);
     width: 100%;
-    height: 100px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    padding-left:1rem ;
+}
+
+.main:hover, .new:hover, .sale:hover, .sborPk:hover{
+    background-color: rgb(71, 51, 97);
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.main:active, .new:active, .sale:active, .sborPk:active{
+    background-color: rgb(117, 87, 157);
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
