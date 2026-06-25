@@ -19,9 +19,8 @@ a {
 }
 
 button{
-    background-color: rgb(167, 109, 220);
+    background-color:#3BC1A8 ;
     border-radius: 12px;
-    border-color: blueviolet;
     border-style:double;
     height: 2.4rem;
     cursor: pointer;
@@ -35,16 +34,16 @@ button{
 
 
 button:hover{
-    background-color:rgb(126, 84, 165) ;
+    background-color:#1db8bb ;
 }
 
 button:active{
-    background-color:rgb(71, 51, 97);
+    background-color:#016d7d;
 }
 
 
 .user-reg-log {
-    background-color: rgb(71, 51, 97);
+    background-color: #005461;
     width: 100%;
     height: 5rem;
     display: flex;
@@ -62,25 +61,29 @@ button:active{
 }
 
 .navigation{
-    background-color: rgb(196, 2, 167);
+    background-color: #249E94;
     width: 100%;
     height: 2rem;
     display: flex;
     align-items: center;
-    gap: 2rem;
     font-size: 1.2rem;
-    padding-left:1rem ;
+    padding-left: 2rem;
+    color: #005461;
 }
 
-.main:hover, .new:hover, .sale:hover, .sborPk:hover{
-    background-color: rgb(71, 51, 97);
-    height: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.main, .new, .sale, .PCassembly{
+ padding-left: 0.5rem;
+ padding-right: 0.5rem;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ border-left: 2px double aliceblue;
+ border-right: 2px double aliceblue;
 }
-.main:active, .new:active, .sale:active, .sborPk:active{
-    background-color: rgb(117, 87, 157);
-    height: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.main:hover, .new:hover, .sale:hover, .PCassembly:hover{
+    background-color: #1db8bb;
+}
+.main:active, .new:active, .sale:active, .PCassembly:active{
+    background-color: #016d7d;
+    
 }
