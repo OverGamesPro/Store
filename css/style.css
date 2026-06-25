@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-
-    
-
 *::before,
 *::after {
     box-sizing: inherit;
     
+}
+
+body{
+    background-color: rgb(31, 35, 53);
 }
 
 a {
@@ -41,7 +42,7 @@ button:active{
     background-color:#016d7d;
 }
 
-
+/*header*/
 .user-reg-log {
     background-color: #005461;
     width: 100%;
@@ -69,6 +70,7 @@ button:active{
     font-size: 1.2rem;
     padding-left: 2rem;
     color: #005461;
+    user-select: none;
 }
 
 .main, .new, .sale, .PCassembly{
@@ -78,12 +80,64 @@ button:active{
  display: flex;
  align-items: center;
  border-left: 2px double aliceblue;
- border-right: 2px double aliceblue;
 }
+
+.PCassembly{
+border-right: 2px double aliceblue;
+}
+
 .main:hover, .new:hover, .sale:hover, .PCassembly:hover{
     background-color: #1db8bb;
 }
 .main:active, .new:active, .sale:active, .PCassembly:active{
     background-color: #016d7d;
     
+}
+
+/* main */
+
+.section1{
+    width: 100%;
+    margin: 1rem 0 4rem 0;
+    display: flex;
+    justify-content:center;
+    gap: 1.4rem;
+    
+}
+
+main article{
+    width: 18%;
+    height: 0;
+    padding-bottom: 29%;
+    background-size: cover;
+    position: relative
+}
+
+article a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    position: absolute;
+    inset: 0;
+}
+
+.noutbook{
+background-image: url(../images/noutbook.png);
+}
+
+.phone{
+background-image: url(../images/phone.png);
+}
+
+.PC{
+background-image: url(../images/pc.png);
+}
+
+.household{
+background-image: url(../images/bitov.png);
+}
+
+.construction{
+background-image: url(../images/stroy.png);
 }
