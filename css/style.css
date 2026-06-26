@@ -141,3 +141,30 @@ background-image: url(../images/bitov.png);
 .construction{
 background-image: url(../images/stroy.png);
 }
+
+/* footer*/
+
+footer{
+    background-color:#005461 ;
+    display: flex;
+    align-items: stretch;
+    padding: 0rem 0rem 0rem 3rem;
+    margin-top: -2rem;
+    gap: 10rem;
+    color: #3BC1A8;
+    
+}
+
+footer section{
+    border-left: 2px double aliceblue;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.linkme{
+  border-right: 2px double aliceblue;  
+}
+
+footer a {
+    display: block;
+    padding-top: 0.6rem;
+}
