@@ -10,6 +10,11 @@
     
 }
 
+.user-reg-log a{
+    font-size: 3rem; 
+    color: #3BC1A8;
+}
+
 body{
     background-color: rgb(31, 35, 53);
     min-height: 100vh;
@@ -44,7 +49,6 @@ button:hover{
 button:active{
     background-color:#016d7d;
 }
-
 /*header*/
 .user-reg-log {
     background-color: #005461;
@@ -97,62 +101,7 @@ border-right: 2px double aliceblue;
     background-color: #016d7d;
 }
 
-/* main */
 
-.section1{
-    margin: 1rem auto 4rem auto;
-    display: grid;
-    column-gap: 3rem;
-    row-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0rem 5rem 0rem 5rem;
-    max-width: 90rem;
-    
-}
-
-main article{
-    aspect-ratio: 480/770;
-    background-size: cover;
-    position: relative;
-    border-radius: 1rem;
-    border:0.2rem solid
-}
-
-
-article a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    user-select: none;
-    position: absolute;
-    inset: 0;
-}
-
-.noutbook{
-background-image: url(../images/noutbook.png);
-}
-
-.phone{
-background-image: url(../images/phone.png);
-}
-
-.PC{
-background-image: url(../images/pc.png);
-}
-
-.household{
-background-image: url(../images/bitov.png);
-}
-
-.construction{
-background-image: url(../images/stroy.png);
-}
-
-
-.noutbook:hover, .phone:hover, .PC:hover, .household:hover, .construction:hover{
-    border-color: #3BC1A8;
-    transform:scale(102%);
-}
 /* footer*/
 
 footer{
