@@ -91,10 +91,10 @@ border-right: 2px double aliceblue;
 
 .main:hover, .new:hover, .sale:hover, .PCassembly:hover{
     background-color: #1db8bb;
+    transform: scaleY(105%);
 }
 .main:active, .new:active, .sale:active, .PCassembly:active{
     background-color: #016d7d;
-    
 }
 
 /* main */
@@ -102,19 +102,22 @@ border-right: 2px double aliceblue;
 .section1{
     margin: 1rem auto 4rem auto;
     display: grid;
-    column-gap: 6rem;
+    column-gap: 3rem;
     row-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     padding: 0rem 5rem 0rem 5rem;
-    max-width: 1200px;
+    max-width: 90rem;
     
 }
 
 main article{
     aspect-ratio: 480/770;
     background-size: cover;
-    position: relative
+    position: relative;
+    border-radius: 1rem;
+    border:0.2rem solid
 }
+
 
 article a {
     display: block;
@@ -145,6 +148,11 @@ background-image: url(../images/bitov.png);
 background-image: url(../images/stroy.png);
 }
 
+
+.noutbook:hover, .phone:hover, .PC:hover, .household:hover, .construction:hover{
+    border-color: #3BC1A8;
+    transform:scale(102%);
+}
 /* footer*/
 
 footer{
@@ -164,13 +172,19 @@ footer{
 footer section{
     border-left: 2px double aliceblue;
     padding: 1rem 2rem 1rem 2rem;
+    user-select: none;
 }
 
 .linkme{
-  border-right: 2px double aliceblue;  
+  border-right: 2px double aliceblue;
+  user-select:text;  
 }
 
 footer a {
     display: block;
     padding-top: 0.6rem;
+}
+
+footer a:hover{
+    transform: scale(104%);
 }
