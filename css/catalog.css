@@ -46,14 +46,18 @@ main section{
  .product a{
     display: block;
     margin-bottom: 1rem;
-    margin-top: -1rem;
  }
 
  .sale-inf{
-    margin-top: -1rem;
-    padding-left: 10rem;
+    margin-left: auto;
  }
 
  article{
     margin-bottom: 2rem;
+ }
+
+ .text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
  }
